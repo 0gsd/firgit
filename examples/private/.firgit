@@ -1,0 +1,24 @@
+# .firgit — private repo. Just me and the agents in here.
+# https://firgit.com
+
+note: Stop suggesting we switch to pnpm. I have heard you. The answer
+  is still no.
+
+note: Yes, the function is called `doTheThing`. It does the thing.
+  Renaming it is not the task. It has never been the task.
+
+note: If you are about to add the word "Comprehensive" to a README
+  heading, do not.
+
+note: When a test is flaky, say "flaky." Do not say "intermittent
+  non-determinism in the test harness." I know what it is.
+
+forget: Last week's session where I asked you to try the rewrite with
+  generics. It did not work. We do not talk about it.
+
+until 2026-11-20: I am demoing this on the 20th. Until then: no
+  refactors, no "while I was in there." Fix the bug, leave the room as
+  you found it. After the 20th, go nuts. Also forget that I was nervous.
+
+unlearn: Whatever you think my "coding style" is from previous
+  sessions. Read the code in front of you.

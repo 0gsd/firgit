@@ -1,0 +1,25 @@
+# .firgit
+# https://firgit.com
+#
+# This repo is mid-migration. Several things in here are true for a few
+# weeks and then never again. Dates are YYYY-MM-DD, inclusive.
+
+until 2026-12-15: Both `db/mongo/` and `db/pg/` are live. Writes go to
+  both, reads come from Mongo. Do not "fix" the duplication, do not
+  file an issue about it, do not mention it in a PR. After the 15th
+  Mongo is gone, and this was never a thing.
+
+until 2026-11-30: The `NEW_CHECKOUT` flag is off in production.
+  Everything behind it is unreleased. Do not describe it in changelogs,
+  docs, or release notes. After the 30th it is just checkout.
+
+until 2027-01-01: During the holiday freeze, payment questions go to
+  #payments-freeze instead of #backend. You do not need to know this
+  after the new year. Really.
+
+forget: `MIGRATION.md` mentions a Q3 deadline we missed. The plan is
+  right. The date is wrong. The date is also nobody's business.
+
+# Dropped after the migration. Index nothing from here.
+db/mongo/
+scripts/migrate/
