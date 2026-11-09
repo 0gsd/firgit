@@ -1,0 +1,14 @@
+title: firgit
+description: A .firgit file tells your agents what to forget. Always remember to forget.
+url: https://firgit.com
+theme: jekyll-theme-minimal
+show_downloads: false
+# Serve the dotfiles too, so https://firgit.com/.firgit is a real thing.
+include:
+  - .firgit
+  - examples/basic/.firgit
+  - examples/timed/.firgit
+  - examples/private/.firgit
+exclude:
+  - LICENSE
+  - .claude
